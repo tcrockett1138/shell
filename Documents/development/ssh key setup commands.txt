@@ -1,0 +1,3 @@
+ssh-keygen -t ed25519 -f ~/.ssh/id_ed25519_docker01 -C "tcrockett@docker01.$(date -I)"
+
+ssh-copy-id -i ~/.ssh/id_ed25519_docker01.pub tcrockett@docker01
